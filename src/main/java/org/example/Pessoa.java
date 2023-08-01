@@ -5,11 +5,11 @@ import java.util.List;
 public class Pessoa {
     private String nome;
     private int idade;
-    private List<Enderecos> enderecos;
+    private List<Endereco> enderecos;
 
     public Pessoa (){}
 
-    public  Pessoa (String nome, int idade, List<Enderecos> enderecos){
+    public  Pessoa (String nome, int idade, List<Endereco> enderecos){
         this.nome = nome;
         this.idade = idade;
         this.enderecos = enderecos;
@@ -31,11 +31,11 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public List<Enderecos> getEnderecos() {
+    public List<Endereco> getEnderecos() {
         return enderecos;
     }
 
-    public void setEnderecos(List<Enderecos> enderecos) {
+    public void setEnderecos(List<Endereco> enderecos) {
         this.enderecos = enderecos;
     }
 }
